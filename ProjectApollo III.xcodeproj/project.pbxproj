@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D45D1312AF45206002E333D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D45D1302AF45206002E333D /* VideoPlayerView.swift */; };
+		1DD161B82AFC54A3000F27D0 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD161B72AFC54A3000F27D0 /* GameViewModel.swift */; };
 		1DF720C42AF1AE0400CEFE80 /* ProjectApollo_IIIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF720C32AF1AE0400CEFE80 /* ProjectApollo_IIIApp.swift */; };
 		1DF720C62AF1AE0400CEFE80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF720C52AF1AE0400CEFE80 /* ContentView.swift */; };
 		1DF720C82AF1AE0500CEFE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF720C72AF1AE0500CEFE80 /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D45D1302AF45206002E333D /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		1DD161B72AFC54A3000F27D0 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		1DF720C02AF1AE0400CEFE80 /* ProjectApollo III.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectApollo III.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF720C32AF1AE0400CEFE80 /* ProjectApollo_IIIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApollo_IIIApp.swift; sourceTree = "<group>"; };
 		1DF720C52AF1AE0400CEFE80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +34,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DD161B92AFC5626000F27D0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1DD161B72AFC54A3000F27D0 /* GameViewModel.swift */,
+				1DF720C52AF1AE0400CEFE80 /* ContentView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		1DF720B72AF1AE0400CEFE80 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				1DF720C32AF1AE0400CEFE80 /* ProjectApollo_IIIApp.swift */,
-				1DF720C52AF1AE0400CEFE80 /* ContentView.swift */,
-				1D45D1302AF45206002E333D /* VideoPlayerView.swift */,
+				1DD161B92AFC5626000F27D0 /* Scenes */,
 				1DF720C72AF1AE0500CEFE80 /* Assets.xcassets */,
 				1DF720C92AF1AE0500CEFE80 /* Preview Content */,
 			);
@@ -140,9 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD161B82AFC54A3000F27D0 /* GameViewModel.swift in Sources */,
 				1DF720C62AF1AE0400CEFE80 /* ContentView.swift in Sources */,
 				1DF720C42AF1AE0400CEFE80 /* ProjectApollo_IIIApp.swift in Sources */,
-				1D45D1312AF45206002E333D /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
